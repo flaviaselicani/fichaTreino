@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --verde-escuro: #588157;
+    --verde-apagado: #DAD8CC;
+    --verde-claro: #A2B18A;
+    --tom-preto: #1E1E1E;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--verde-escuro);
+    color: var(--verde-apagado);
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    padding-top: 80px;
+}
