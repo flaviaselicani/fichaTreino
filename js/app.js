@@ -4,7 +4,7 @@ function exibeFicha() {
 
     for (let dado of dados) {
         resultados += `
-            <tr>
+            <tr style="--cor-treino: ${dado.cor};">
                 <td>${dado.treino}</td>
                 <td>${dado.exercicio}</td>
                 <td>${dado.serie}</td>
